@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Friend Request</title>
+    <style>
+        body {
+            margin: 0;padding: 0;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            background-color: rgb(127, 127, 127);
+        }
+        #card {
+            height: 450px;
+            width: 300px;
+            background: #ffffff;
+            color: white;
+            border-radius: 10px;
+            padding: 10px;
+
+        }
+        #card img{
+            height: 50%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+        }
+       
+         h1{
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: rgb(49, 49, 49);
+        }
+        .btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        button {
+            border: none;
+            outline: none;
+            padding: 10px 20px;
+            background: #dedede;
+            transition: ease 0.2s;
+            border-radius: 5px;
+        }
+        button:hover{
+            background: #c8c8c8;
+            cursor: pointer;
+        }
+        h5 {
+            color: rgb(163, 163, 163);
+            font-size: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="card">
+       <img src="https://images.unsplash.com/photo-1628672620788-a53f0c66e643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1995&q=80" alt="">
+
+          <h1 style="text-align: center;">PUGLU</h1>
+          <h5>Unknown Person</h5>
+          <div class="btn">
+            <button id="add">Add Friend</button>
+          </div>
+          
+       
+    </div>
+  
+<script src="script.js"></script>
+</body>
+</html>
